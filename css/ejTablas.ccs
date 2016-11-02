@@ -1,0 +1,94 @@
+ table
+        {
+            
+            border-spacing: inherit;
+            border-top:2px solid black;
+            border-bottom: 2px solid gray;
+            margin-top:5%;
+            margin-left:8%;
+
+        }
+       
+       
+        th
+        {
+         background-color:cornflowerblue;   
+        }
+        td
+        {
+            border-bottom: 2px solid cornflowerblue; 
+        }
+        
+        thead
+        {
+            text-align: center;
+            background-color:lightgrey;
+           height:50px;
+            border-top:2px;
+            border-top-style: solid;
+            border-top-color: black;
+            font-weight:bolder;
+        }
+      
+        tfood
+        {
+        background-color: antiquewhite;    
+            
+        }
+        
+        .dificultat
+        {
+            background-color:grey;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+            border-bottom: 2px solid white;
+            padding-bottom: 1%;
+            
+           
+        }
+        .ColData
+        {
+           background-color: black;
+            color: white;
+            border-bottom: 2px solid white;
+            padding-left: 15px;
+           padding-right:15px
+            
+        }
+        
+        .AligDies
+        {
+           text-align:right;
+            padding-right: 10px;
+             padding-left: 40px
+        }
+        tfoot
+        {
+            background-color: azure; 
+            empty-cells: show; /* no muestra celdas vacias */
+            border-bottom: none;
+            
+        }
+        .textoAct
+        {
+            padding-left:2%;
+        }
+        .txtAzul
+        {
+            color: cadetblue;
+        }
+        
+        /* estilo de letra de la firma */
+         @font-face{
+                
+                 font-family: letra;
+                src: url(../font/DarkGardenMK.ttf);
+            }
+            
+        #firma{
+            
+                font-family: letra;
+                 text-align: right;
+                
+            }

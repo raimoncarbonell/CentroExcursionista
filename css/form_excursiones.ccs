@@ -1,0 +1,95 @@
+        form
+        {
+            margin-left: 9%;
+            margin-right: 9%;
+           
+        }
+ 
+    fieldset fieldset
+        {
+            display:inline-block;
+            width: 40%;
+            border:0px;
+            margin-top: 1px;
+        }
+        fieldset
+        {
+            
+           
+            margin-top: 10px;
+            
+        }
+        input{
+            margin: 3px;
+        }
+        /* css para comprobar en correo */
+            input[type="email"]{
+                border: 1px solid red;
+            }
+            
+            input [type="email"]:required{
+                background-color: orange;
+            }
+            
+            input[type="email"]:valid{
+                background-color:#C1F1D1;
+            }
+            
+            input[type="email"]:invalid{
+                background-color:#F1C1C1;
+            }
+        
+       
+            input[type="text"]{
+                border: 1px solid red;
+            }
+            
+            input[type="text"]:required{
+                background-color: orange;
+            }
+            
+            input[type="text"]:valid{
+                background-color:#C1F1D1;
+            }
+            
+            input[type="text"]:invalid{
+                background-color: #F1C1C1;
+            }
+            
+            
+            
+            input[type="tel"]{
+                border: 1px solid red;
+            }
+            
+            input[type="tel"]:required{
+                background-color: orange;
+            }
+            
+            input[type="tel"]:valid{
+                background-color:#C1F1D1;
+            }
+            
+            input[type="tel"]:invalid{
+                background-color:#F1C1C1;
+                
+            }
+             input[type="submit"]
+                {
+                
+                 margin-top:5px;
+                    float:left;
+                    
+                }
+             /* Tipo de letra firma  */
+ 	              @font-face{
+                
+                 font-family: letra;
+                src: url(../font/DarkGardenMK.ttf);
+            }
+            
+            #firma{
+                 font-family: letra;
+                 text-align: right;
+                
+            }

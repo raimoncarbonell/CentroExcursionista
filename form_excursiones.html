@@ -1,0 +1,150 @@
+
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    
+    <title>Centro excursionista</title>
+ 
+      <!-- carga de hojas de estilo css -->
+    <link href="css/menu.ccs" rel=stylesheet type="text/css"/>
+    <link href="css/index.ccs" rel=stylesheet type="text/css"/>
+    <link href="css/form_excursiones.ccs" rel=stylesheet type="text/css"/>
+    </head>
+        <body>
+
+                
+
+        <div id="contenedor">
+            <img src="img/logo-centre-excursionista-catalunya1.png" alt="logo catalunya">
+             <nav id="menuH">
+                 <!-- parte del menu de navegacion-->
+                <ul>
+                    <li><a href="index.html">Incio</a></li>
+                    <li><a href="ejTablas.html">Tabla actividades</a></li>
+                    <li><a href="form_excursiones.html">Formulario</a></li>
+                </ul>
+            </nav>
+
+        <!-- incio de formulario-->    
+   <form method="get" action ="#">
+       <fieldset>
+     <legend>Datos Personales</legend>
+            <label >Nombre</label>
+                <input type="text" name="nombre"  required placeholder="nombre">
+            <label >Apellidos
+                </label> <input type="text" name="apellidos"  required placeholder="apellidos">
+                <br>
+                <br>
+            <label >Fecha de nacimiento</label>
+                <input type="date" name="fecha" >
+          <label >Sexo:</label>
+          <label >Sexo:</label>
+                <label>Femenino</label> <input type="radio" name="sexo" value="Femenino" >
+                <label>Masculino</label> <input type="radio" name="sexo" value="Masculino" >
+        <br>
+        <br>
+
+            <label>Dirección</label>
+                <input type="text" name="apellidos"  required>
+        
+            <label>Pais</label>
+            <select>
+
+                <option value="es"> España</option>
+                <option value="fr">Francia</option>
+                <option value="uk">Reino Unido</option>
+            </select> 
+        
+        <label>Provincia</label>
+            <select>
+
+                <option value="BCN">Barcelona</option>
+                <option value="GI">Tarragona</option>
+                <option value="LLE">LLeida</option>
+            </select> 
+        <br>
+        <br>
+        <label>Codigo Postal </label>
+        <input type="text" name = "CP ">
+        
+        <label>Poblacion</label>
+        <input type="text" name = "poblacion">
+        <br>
+        <br>
+        <label>Teléfono</label>
+        <input type="tel" name = "tel">
+         <label>correo electrónico</label> <input type="email" name = "email" required> 
+        
+        <label>DNI</label><input type="text" id="DNI"  required> 
+        
+        
+        
+           
+        </fieldset> 
+            
+         <fieldset>
+        
+     <legend>Datos de pago</legend>   
+             <label >Forma de pago</label>
+             <br>
+             <input type="radio" name="fPago" value="tarjeta"  onchange="Ptargeta()" > <label>Tarjeta</label>  <br>
+             
+                 <input type="radio" name="fPago" value="Ccorrinte"  onselect="Ptargeta" ><label>Cuenta corriente</label>
+             
+    </fieldset> 
+    
+    <fieldset>
+        
+        <legend>Actividades que me interesan:</legend>
+        <fieldset>    
+            <legend>Deportivas</legend>
+                <input type="checkbox" name="montaña"><label>Montaña</label>
+                <input type="checkbox" name="camping"><label>Camping</label>
+                <input type="checkbox" name="barrancos"><label>Barrancos</label>
+                <br>
+                <input type="checkbox" name="btt"><label>Btt</label>
+                
+                <input type="checkbox" name="barrancos"><label>Barrancos</label>
+                <input type="checkbox" name="alpinismo"><label>Alpinismo,</label>
+                
+               <input type="checkbox" name="escalada"><label>Escalada</label>
+            </fieldset>
+        
+        
+        <fieldset>
+            <legend>Culturales</legend>
+            
+            <input type="checkbox" name="cine"><label>Cine</label>
+            <input type="checkbox" name="fotografía"><label>Fotografía</label>
+            <input type="checkbox" name="geografía"><label>Geografía</label>
+            <br>
+            <input type="checkbox" name="CienciasNaturales"><label>Ciencias naturales</label>
+    
+        </fieldset>
+            
+       
+        </fieldset>
+    
+    <fieldset>
+        
+        <legend>Documentacion</legend>
+           
+          <label> Ajunta el fitchero con tu DNI escaneador por ambas caras</label> <input type="file" name="DNI" required>
+       
+            
+    </fieldset>
+    <fieldset>
+        <legend>Nuestra Actividades</legend>
+    <input type="checkbox" name="CienciasNaturales"><label>Desa recbir informacion informacio de nuestras activiades</label>
+    </fieldset>
+     <input type="submit"> <!-- boton de envio de formulario-->
+    </form>
+            <!-- fin de formulario-->
+            </div> 
+            <p id ="firma">Web creada por Raimon Carbonell</p>
+    </body>
+</html>
+
+        

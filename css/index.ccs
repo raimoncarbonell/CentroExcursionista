@@ -1,0 +1,57 @@
+ body
+        {
+             background: linear-gradient(#9e93d6,azure);
+        }
+    
+        @font-face{
+                
+                 font-family: letra;
+                src: url(../font/DarkGardenMK.ttf);
+            }
+            
+            #firma{
+                 font-family: letra;
+                 text-align: right;
+                
+            }
+        
+        #contenedor
+        {
+            margin-left:25%;
+            margin-right:10%;
+            margin-bottom:3%;
+            margin-top: 1%;
+            border-bottom: 3px;
+            padding-top: 1%;
+            padding-left: 1%;
+            padding-right: 1%;
+            width: 50%;
+            height: 89%;
+            background-color: aliceblue;
+            border-radius: 5%;
+            
+        }
+        img
+        {
+            
+        vertical-align: top;
+        }
+        p
+        {
+            text-align: justify;
+        }
+        h1
+        {
+            text-align: center;
+        }
+        
+        p img
+        {
+            margin-top: 2%;
+            margin-left: 35%;
+            border: PowderBlue 5px solid;
+              border-radius: 30px;
+              border-radius: 30px;
+            
+        }
+        

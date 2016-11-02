@@ -1,0 +1,39 @@
+#menuH
+{
+display:inline-block;
+
+        }
+           
+           #menuH ul{
+                list-style-type: none;
+               
+                  
+            }
+            
+            #menuH li{
+                display: inline;
+                margin-right: 1em;
+                 width: 10px;
+                height: 10px;
+                color:#7c8081;
+                
+                
+              
+            }
+            /*codigo para el boton en reposo */
+            #menuH a{
+                transition: width 1s 3s, background-color 3s, border-radius 1s;
+                text-decoration: none;
+                display: inline-block;
+                padding: 10px;
+                background: linear-gradient(#004cff,aliceblue, #defbfa);
+                
+            }
+            /*codigo con el raton sobre el boton*/
+            #menuH a:hover{
+                border-radius: 75%;
+                width: 70px;
+                
+               color:cornsilk;
+                background: linear-gradient(blue, blacK);
+                }
